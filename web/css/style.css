@@ -1,0 +1,40 @@
+/* Main stylesheet */
+
+*{ margin: 0; padding: 0; color: #444; font-family: "Liberation Sans", helvetica, verdana, arial, sans-serif; }
+body{ background-color: #D2D2D2; }
+
+.l{ float: left; }
+.r{ float: right; }
+.c{ clear: both; }
+
+.t-l{ text-align: left; }
+.t-c{ text-align: center; }
+.t-r{ text-align: right; }
+
+.b{ font-weight: bold; }
+.u{ text-decoration: underline; }
+.i{ font-style: italic; }
+
+#userinfo{ margin: 5px 5px 15px 5px; }
+  #userinfo p{}
+  #userinfo p .username{ font-weight: bold; }
+
+#wrapper{ width: 1500px; margin: 20px auto; }
+#inner{ width: 1498px; border: 1px solid #B9B9B9; }
+  #header{ width: 100%; background-color: #D1D1D1; height: 40px; }
+    #logo{ float: left; }
+      #logo h1{ font-size: 1.3em; margin: 5px 10px; }
+    #menu{ float: right;  }
+      #menu ul{ display: block; float: right; }
+        #menu ul li{ display: block; float: left; }
+          #menu ul li a{ display: block; padding: 10px; text-decoration: none; line-height: 20px; font-weight: bold; font-size: 0.9em; border-left: 2px solid #B9B9B9;  }
+          #menu ul li a.active{ background-color: #FFFFFF;  }
+          #menu ul li a:hover{ background-color: #FFFFFF; border-left: 2px solid #FFFFFF;  }
+  #content{ background-color: #FFFFFF; padding: 10px; min-height: 500px;  }
+    #content table{ width: 100%; border-collapse: collapse; border: 1px solid: #B9B9B9; }
+    #content tr{}
+      #content th{ font-weight: bold; background-color: #D1D1D1; }
+  #footer{ background-color: #333333; padding: 10px;  }
+    #footer p{ color: #FFFFFF;  }
+
+
