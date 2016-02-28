@@ -1,0 +1,2 @@
+# NGSync
+GlobalSync on steroids
