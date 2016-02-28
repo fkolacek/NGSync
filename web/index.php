@@ -21,7 +21,7 @@
       $page = "error";
   }
   else
-    $page = "default";
+    $page = "jobs";
 
   $page = "pages/".$page.".php";
 
@@ -51,9 +51,9 @@
 
         <div id="menu">
           <ul>
-            <li><a href="#">Jobs</a></li>
-            <li><a class="" href="#">Configuration</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="?page=jobs">Jobs</a></li>
+            <li><a href="?page=configuration" class="" href="#">Configuration</a></li>
+            <li><a href="?page=about">About</a></li>
           </ul>
         </div>
 
